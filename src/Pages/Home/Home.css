@@ -1,0 +1,15 @@
+
+.carouselDiv{
+    position: relative;
+}
+.carouselDiv img{
+    height: 90vh;
+    width: 100vw;
+}
+.carouselDiv .carouselDivInner{
+    position: absolute;
+    top: 20rem;
+    left: 20rem;
+    z-index: 10;
+    color: white;
+}
