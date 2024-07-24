@@ -1,0 +1,29 @@
+.cardDiv{
+    
+    width: 240px;
+    height: 240px;
+    background-color: #bbf7d0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cardPhoto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-name{
+    color:#f79530 ;
+}
+
+.card-description{
+   color: #077846;
+
+}

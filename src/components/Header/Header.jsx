@@ -9,10 +9,10 @@ const Header = () => {
     <div>
       <header>
         <nav>
-            <div className='linkContainer '>
+            <div className='linkContainer  '>
                 <img src={slogo} alt="school_logo" className='slogo-img' />
                 <div>
-                    <ul className='mainUl'>
+                    <ul className='mainUl '>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/aboutUs" >About Us</Link></li>
                         <li><Link to="/academics">Academics</Link></li>
@@ -23,7 +23,7 @@ const Header = () => {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <div>
+                <div className='flex justify-center gap-3'>
                     <Navbtn btntext = "PayOnline Fees"  />
                     <Navbtn btntext = "Admissions" linkto= "/admission" />
                 </div>

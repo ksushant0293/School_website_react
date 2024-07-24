@@ -7,8 +7,10 @@ header{
 }
 
 .linkContainer{
+    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul{

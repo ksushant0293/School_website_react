@@ -1,0 +1,23 @@
+.principalDiv{
+    background-image: url(../../assets/principalsaab.webp);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principalinner{
+    width: 45%;
+    height: 100%;
+    padding: 4rem 0 2.5rem 3rem;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+    
+}
+
+.ourText{
+    color: #f79530;
+}
+
+.visionText{
+    color: #077846;
+}

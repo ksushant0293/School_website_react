@@ -8,6 +8,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Home.css'
+import Footer from '../../components/footer/Footer';
+import ss from '../../assets/ss.png'
+import About from '../About/About';
 const Home = () => {
 
 
@@ -27,8 +30,13 @@ const Home = () => {
   const carouselData = [
     {
       imgSrc : childImg,
-      headingText : "Annual Sports Day",
+      headingText : "Welcome to Springdale Public School,",
       quoteText : "Celebrating Excellence in Sports"
+    },
+    {
+      imgSrc : ss,
+      headingText : "Annual Sports Day",
+      quoteText : "where we nurture young minds for a brighter future."
     },
     {
       imgSrc : school,
@@ -73,11 +81,8 @@ const Home = () => {
         }
       </Slider>
     </div>
-    <div className='bg-amber-300' >
-    <h1>Welcome to Springdale Public School, where we nurture young minds for a brighter future.</h1>
-    </div>
-
-
+    <About />
+    <Footer/>
     </div>
   )
 }
