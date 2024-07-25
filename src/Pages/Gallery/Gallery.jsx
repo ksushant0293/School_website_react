@@ -42,7 +42,7 @@ const Faculty = () => {
     <div className="bg-green-100">
       <Header />
       <div>
-      <h1 className="text-center text-4xl backCol font-semibold underline p-4">Our Faculty</h1>
+      <h1 className="text-center text-4xl backCol font-semibold underline p-4">All Round Hollistic Development </h1>
       </div>
       <div className="schoolFunctions">
       {
