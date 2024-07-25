@@ -21,6 +21,33 @@ const Home = () => {
     speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const carouselData = [
@@ -44,7 +71,7 @@ const Home = () => {
     <div>
       <Header />
       <div className="IntroDiv">
-        <h1 className="text-center text-3xl text-white">
+        <h1 className="text-center text-white sm:text-base md:text-lg lg:text-xl xl:text-2xl">
           "Welcome to Springdale Public School, where we nurture young minds for
           a brighter future."
         </h1>

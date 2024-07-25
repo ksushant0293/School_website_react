@@ -5,6 +5,10 @@ header{
     padding: 10px;
     
 }
+.slogo-img{
+    width: 50px;
+    height: 50px;
+}
 
 .linkContainer{
     padding: 0 2rem;
@@ -18,3 +22,11 @@ ul{
     list-style: none;
     gap: 20px;
 }
+
+@media screen and (max-with:1120px) {
+    .innerLinkContainer{
+        width: 80%;
+    }
+}
+
+

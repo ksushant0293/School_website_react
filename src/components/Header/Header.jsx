@@ -4,22 +4,23 @@ import slogo from "../../assets/slogo.png";
 import "../../App.css";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <div>
       <header>
         <nav>
-          <div className="linkContainer  ">
+          <div className="linkContainer">
             <Link to="/"><img src={slogo} alt="school_logo" className="slogo-img" /></Link>
-            <div>
-              <ul className="mainUl ">
+            <div className="innerLinkContainer">
+              <ul className="mainUl">
                 <li>
                   <NavLink
                     to="/"
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     Home
@@ -31,7 +32,7 @@ const Header = () => {
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     About Us
@@ -43,20 +44,19 @@ const Header = () => {
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     Academics
                   </NavLink>
                 </li>
-
                 <li>
                   <NavLink
                     to="/faculty"
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     Faculty
@@ -68,7 +68,7 @@ const Header = () => {
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     Students
@@ -80,7 +80,7 @@ const Header = () => {
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     Gallery
@@ -92,7 +92,7 @@ const Header = () => {
                     className={({ isActive }) =>
                       `block py-2 pr-4 pl-3 duration-200 ${
                         isActive ? "text-yellow-200" : "text-white"
-                      } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                      }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                     }
                   >
                     Contact
@@ -106,7 +106,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-yellow-200" : "text-white"
-                  } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                  }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                 }
               >
                 Admissions
@@ -116,7 +116,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-yellow-200" : "text-white"
-                  } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-500 lg:p-0`
+                  }  border-gray-100 hover:bg-gray-50 hover:text-orange-500 hover:bg-transparent text-sm sm:text-base md:text-md lg:text-lg xl:text-xl`
                 }
               >
                 PayOnline Fees
