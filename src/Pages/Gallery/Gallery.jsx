@@ -5,41 +5,54 @@ import male from "../../assets/male.jpg";
 import Footer from "../../components/footer/Footer"
 import AOS from "aos";
 import "aos/dist/aos.css";
+import classroom from "../../assets/classroom.jpg"
+import sportsday from "../../assets/sportsday.jpg"
+import cultural from "../../assets/cultural.jpg"
+import science from "../../assets/sciencEx.jpg"
+import library from "../../assets/library.jpg"
+import './Gallery.css'
 const Faculty = () => {
+
+  const cardOneData = [
+    {
+      imgSrc: classroom,
+      desc: "A glimpse of our interactive classrooms."
+    },
+    {
+      imgSrc: sportsday,
+      desc:  "Students participating in various sports events." 
+    },
+    {
+      imgSrc: cultural,
+      desc:  "Pompous celebration of cultural events." 
+    },
+    {
+      imgSrc: science,
+      desc:  "Students presenting their science projects."
+    },
+    {
+      imgSrc: library,
+      desc:  "Students reading and studying in the school library."
+    }
+  ]
+
+
+
   return (
     <div className="bg-green-100">
       <Header />
-      <div className="flex flex-col gap-2 m-3">
-        <div className="flex justify-around">
-          <CardOne
-            photo={male}
-            name="akash skula"
-            description="Students participating in various sports events."
-          />
-          <CardOne
-            photo={male}
-            name="sushant kumar"
-            description="Students presenting their science projects."
-          />
-          <CardOne
-            photo={male}
-            name="Prateek Kumar Jha"
-            description= "Students performing in the cultural fest."
-          />
-        </div>
-        <div className="flex justify-around">
-          <CardOne
-            photo={male}
-            name="akash patel"
-            description="A glimpse of our interactive classrooms."
-          />
-          <CardOne
-            photo={male}
-            name="nidhi Srivastava"
-            description="Students reading and studying in the school library."
-          />
-          
-        </div>
+      <div>
+      <h1 className="text-center text-4xl backCol font-semibold underline p-4">Our Faculty</h1>
+      </div>
+      <div className="schoolFunctions">
+      {
+        cardOneData.map((elem,index) =>(
+          <div className="schoolCard">
+            <img src={elem.imgSrc} alt={elem.imgSrc} />
+            <h5 >{elem.desc}</h5>
+          </div>
+        ))
+      }
       </div>
       <Footer />
     </div>

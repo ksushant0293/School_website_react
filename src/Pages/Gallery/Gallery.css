@@ -1,0 +1,27 @@
+
+.schoolFunctions{
+    display: flex;
+    padding: 3rem 5rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.schoolCard{
+    width: 250px;
+    height: 280px;
+    background-color: #bbf7d0;
+    padding:  1rem;
+    border-radius: 5px;
+}
+.schoolCard h5{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #077846;
+
+}
+
+.backCol{
+    color: #077846;
+}
