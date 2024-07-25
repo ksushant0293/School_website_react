@@ -2,7 +2,13 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Card from "../../components/card/Card";
 import male from "../../assets/male.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Faculty = () => {
+
+  
+
+
   return (
     <div className="bg-green-100 h-screen">
       <Header />

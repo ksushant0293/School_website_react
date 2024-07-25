@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Home from './Pages/Home/Home';
-import About from './Pages/About/About';
+import AboutUs from './Pages/About/AboutUs';
 import Academics from './Pages/Academics/Academics';
 import Admissions from './Pages/Admission/Admission';
 import Contact from './Pages/Contact/Contact';
@@ -10,7 +10,6 @@ import Students from './Pages/Students/Students';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const router = createBrowserRouter([
     {
@@ -19,7 +18,7 @@ function App() {
     },
     {
       path: "/aboutUs",
-      element: <About />
+      element: <AboutUs />
     },
     {
       path: "/academics",

@@ -3,3 +3,9 @@ footer{
     background-color: #1a3226;
     color: white;
 }
+
+.footerDiv{
+    width: 90%;
+    margin: auto;
+}
+

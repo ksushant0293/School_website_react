@@ -1,6 +1,7 @@
 .principalDiv{
     background-image: url(../../assets/principalsaab.webp);
     height: 70vh;
+    margin-top: -8px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,11 +14,23 @@
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
     
 }
-
+.motoDiv{
+    width: 90%;
+    margin: auto;
+}
 .ourText{
     color: #f79530;
 }
 
 .visionText{
     color: #077846;
+}
+
+.historyDiv{
+    width: 90%;
+    margin: auto;
+}
+
+.motoimg{
+
 }

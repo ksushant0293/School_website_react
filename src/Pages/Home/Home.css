@@ -3,7 +3,7 @@
     position: relative;
 }
 .carouselDiv img{
-    height: 90vh;
+    height: 80vh;
     width: 100vw;
 }
 .carouselDiv .carouselDivInner{
@@ -12,4 +12,12 @@
     left: 20rem;
     z-index: 10;
     color: white;
+}
+
+.homeFooterDiv{
+    margin: -8px;
+}
+
+.IntroDiv{
+    background-color: #1a3226;
 }

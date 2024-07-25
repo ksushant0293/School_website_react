@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Card.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Card = ({photo, name, description}) => {
+
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[])
+
+
   return (
-    <div className="cardDiv">
+    <div data-aos="fade-up" className="cardDiv">
       <div className="imgdiv">
       <img src= {photo} className="cardPhoto"/>
       </div>
