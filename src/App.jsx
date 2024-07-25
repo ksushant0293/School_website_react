@@ -7,6 +7,7 @@ import Contact from './Pages/Contact/Contact';
 import Gallery from './Pages/Gallery/Gallery';
 import Faculty from './Pages/Faculty/Faculty';
 import Students from './Pages/Students/Students';
+import Fees from './Pages/fees/Fees';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 function App() {
@@ -43,6 +44,10 @@ function App() {
     {
       path: "/students",
       element: <Students />
+    },
+    {
+      path: "/fees",
+      element: <Fees />
     },
   ])
 

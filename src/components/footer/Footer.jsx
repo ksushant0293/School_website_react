@@ -46,6 +46,7 @@ const Footer = () => {
       </iframe>
       </div>
     </div>
+    <h1 className='text-center'>Designed By: Sushant Kumar</h1>
     </div>
     </footer>
   )

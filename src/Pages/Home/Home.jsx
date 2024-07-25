@@ -26,7 +26,7 @@ const Home = () => {
   const carouselData = [
     {
       imgSrc: childImg,
-      headingText: "Cultural Fest,",
+      headingText: "Cultural Fest",
       quoteText: "Embracing Diversity and Creativity",
     },
     {

@@ -10,25 +10,19 @@
 .cardPhoto{
     width: 80px;
     height: 80px;
-    border-radius: 50%;
 }
 
 .imgdiv{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:1rem;
 }
 
 .card-name{
     color:#f79530 ;
-    font-weight: bold;
 }
 
 .card-description{
    color: #077846;
-   font-weight: 500;
-}
-.card-content h2{
-    margin-bottom: 10px;
+
 }
